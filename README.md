@@ -18,8 +18,45 @@
 
 ## 📚 **기술 스택**
 
-[기술 스택]
-[![My Skills](https://skillicons.dev/icons?i=js,html,css,wasm)](https://skillicons.dev)
+### Back-end
+![Java](https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white)
+![Spring](https://img.shields.io/badge/spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/springboot-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
+![MySQL](https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Redis](https://img.shields.io/badge/redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![Elasticsearch](https://img.shields.io/badge/elasticsearch-47A248?style=for-the-badge&logo=elasticsearch&logoColor=white)
+
+- **Java**: Spring Boot 기반 서버 개발
+- **Spring**: 의존성 주입 및 AOP, 트랜잭션 관리 등 다양한 엔터프라이즈 기능을 제공하는 프레임워크
+- **Spring Boot**: 빠른 설정 및 간단한 구성을 통해 스프링 기반 애플리케이션을 개발할 수 있도록 돕는 프레임워크
+- **Redis**: 세션 관리 및 분산 락을 통한 동시성 제어
+- **MySQL**: AWS RDS에서 제공되는 관계형 데이터베이스
+- **Elasticsearch**: 인기 검색어 순위 및 빠른 검색 기능 제공
+
+
+### AWS
+![EC2](https://img.shields.io/badge/amazon_ec2-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
+![RDS](https://img.shields.io/badge/amazon_rds-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Loadbalancer](https://img.shields.io/badge/amazon_loadbalancer-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
+![S3](https://img.shields.io/badge/amazon_s3-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Route 53](https://img.shields.io/badge/route_53-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
+
+- **EC2**: 애플리케이션 서버 운영
+- **RDS**: 관계형 데이터베이스 관리
+- **로드밸런싱**: 트래픽을 여러 EC2 인스턴스에 분산하여 처리
+- **S3**: 이미지 및 기타 파일 저장 관리
+- **도메인 관리**: AWS Route 53을 통해 도메인 설정
+
+### Tools
+![JMeter](https://img.shields.io/badge/jmeter-F5A500?style=for-the-badge&logo=apachejmeter&logoColor=white)
+![Docker](https://img.shields.io/badge/docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white)
+
+- **JMeter**: 성능 테스트 및 로드 테스트를 통한 시스템 안정성 검증
+- **Docker**: 개발 및 배포 환경을 컨테이너화하여 일관성 있는 개발 환경 제공
+- **Git**: 버전 관리 시스템
+- **GitHub**: GitHub을 사용한 협업 및 코드 관리
 
 ---
 
@@ -78,13 +115,6 @@
 - **대기열 시스템**: 대량의 트래픽이 몰리는 것을 방지하는 대기열 시스템 추가 예정
 - **트래픽 이벤트 처리**: 트래픽이 몰릴 이벤트 상품 데이터를 미리 캐싱하여 빠른 처리 지원
 - **ElasticSearch 도입**: 대용량 데이터 환경에서 뛰어난 성능을 보이는 검색 기능 도입
-
----
-
-## 💽 **데이터 출처**
-
-- **다나와 여행**에서 크롤링한 데이터
-- **Crawling 코드**: [Tour-Ranger-Crawling GitHub Repository](https://github.com/your-repo/crawling)
 
 ---
 
