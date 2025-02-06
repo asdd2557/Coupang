@@ -43,8 +43,26 @@
 2. 📀 **DB 최적화**: 여행 상품 검색 속도 개선
 3. 🚀 **레디스 캐싱**: 데이터 캐싱을 통한 빠른 응답 처리
 4. 🛣️ **부하 분산**: AWS 로드밸런싱을 활용한 부하 분산
-5. 🏆 **부하 분산**: 엘라스틱 서치를 이용한 검색 속도 개선
+5. 🔍 **Elasticsearch**: 엘라스틱 서치를 이용한 검색 속도 개선
 
+<details>
+  <summary>📊 Elasticsearch 성능 비교 결과 (클릭해서 보기)</summary>
+
+![Elasticsearch 성능 비교](https://github.com/user-attachments/assets/0ee0141b-38c5-4f6b-84be-54a31de92d47)
+
+| **검색 방법**                  | **설명**                         | **실행 속도 (ms)** |
+  |--------------------------------|--------------------------------|-------------------|
+| `getPopularKeywords()`         | 기본적인 검색어 집계            | **39ms**          |
+| `getPopularKeywordsOptimized()` | 실행 힌트 적용 (`Map` 방식)     | **33ms**          |
+| `getPopularKeywordsFastest()`   | 실행 힌트 + 쿼리 캐싱 적용      | **17ms**          |
+
+- **최적화 결과**
+    - 기본 검색 대비 **최대 2.3배 속도 향상**
+    - `executionHint(TermsAggregationExecutionHint.Map)` 적용 시 **15% 속도 개선**
+    - `requestCache(true)` 적용 후 **50% 추가 속도 개선**
+    - 캐싱된 검색어 데이터를 활용하면 **0.1초 이내** 응답 가능
+
+</details>
 ---
 
 ## 🔒 **트러블슈팅**
