@@ -119,6 +119,8 @@
   - Redis Cache 적용 후 **평균 응답 속도 3초 211ms 향상**
 
 
+
+
   <summary>📊 Elasticsearch 성능 비교 결과 (클릭해서 보기)</summary>
 
 ![Elasticsearch 성능 비교](https://github.com/user-attachments/assets/0ee0141b-38c5-4f6b-84be-54a31de92d47)
