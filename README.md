@@ -8,6 +8,39 @@
 ## ⭐️ **스파르타 내일배움캠프 플러스 프로젝트** : 8조 ⭐️
 ![쿠팡 쿠폰 메인 이미지](https://github.com/llRosell/Coupang/blob/dev/%E1%84%8F%E1%85%AE%E1%84%91%E1%85%A1%E1%86%BC%20%E1%84%8F%E1%85%AE%E1%84%91%E1%85%A9%E1%86%AB%20%E1%84%86%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%AB.png?raw=true)
 
+## 팀원 소개
+
+- **김리은**: Redis 분산락, 비관적 락, 낙관적 락을 이용한 동시성 제어, README 작성, 발표
+- **최순우**: JWT와 Spring Security 인증/인가, Social Login, AWS 배포, 발표자료 준비
+- **이경훈**: ElasticSearch를 이용한 인기 검색어 조회 기능
+- **최대현**: 상품 목록 조회, Caching 성능 비교, 시연 영상 녹화
+
+## 프로젝트 소개
+## 프로젝트 목표
+
+### 1. JWT 및 스프링 시큐리티 / OAuth 2.0 소셜 로그인
+- JWT 및 Spring Security 설정을 통해 인증 및 인가 로직 구현
+- OAuth 2.0을 사용하여 소셜 로그인 기능 구현
+
+### 2. 데이터 처리 능력 강화
+- **동시성 문제 해결**: 다수의 요청을 안정적으로 처리하기 위한 동시성 제어 방법 구현
+  - 락을 설정하지 않으면 동시성 이슈가 발생하는지 검증하는 테스트 코드 작성
+  - Redis Lock을 사용하여 동시성 이슈 제어
+  - 동시성 이슈를 락을 통해 제어하는 테스트 코드 작성
+
+### 3. Cache를 이용한 성능 개선
+- 상품 목록 조회 API에 In-memory Cache 적용하여 성능 개선
+- 적용 전, 적용 후 성능 테스트
+
+### 4. ElasticSearch를 활용한 검색 서비스
+- ElasticSearch를 이용한 인기 검색어 조회 및 상품 검색 기능 구현
+
+### 5. AWS 배포
+- 클라우드에서 서버 배포 및 운영 환경 구축
+- 자동화된 파이프라인을 통해 안정적이고 신속한 배포 환경 구축
+- 관리형 데이터베이스를 사용하여 안정적인 데이터 관리 및 운영 실습
+
+- 
 ## 🏆 **Architecture** 
 ![image](https://github.com/user-attachments/assets/27a7d8be-d38d-4036-834b-57b93aa53c1b)
 
@@ -20,11 +53,31 @@
 ## 🎬 **발표 영상 보러가기**
 [발표 영상](https://www.youtube.com/watch?v=-8S3XLLW6jA)
 
+## 💬 **와이어프레임**
+![와이어프레임 이미지](https://github.com/llRosell/Coupang/blob/dev/%E1%84%8F%E1%85%AE%E1%84%88%E1%85%A1%E1%86%BC%20%E1%84%8B%E1%85%AA%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%A5%E1%84%91%E1%85%B3%E1%84%85%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%B7.png?raw=true)
+</details>
 
 ## 💬 **ERD**
 ![ERD 이미지](https://raw.githubusercontent.com/llRosell/Coupang/refs/heads/dev/ERD.webp)
 </details>
----
+
+## API 명세서
+
+| **기능**           | **method** | **URL**                              | **body**                                                                                                                                                   |
+|------------------|------------|------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **회원가입**        | POST       | /user/register                     | ```json<br>{<br>"email": "email@example.com",<br>"password": "data"<br>}<br>```                                                                            |
+| **로그인**          | POST       | /auth/login                        | ```json<br>{<br>"email": "email@example.com",<br>"password": "data"<br>}<br>```                                                                            |
+| **상품 목록 조회**   | GET        | /products/v2/list                  | 없음                                                                                                                                                        |
+| **쿠폰 조회**        | GET        | /coupons                            | 없음                                                                                                                                                        |
+| **쿠폰 발급**        | POST       | /coupons/issue                      | ```json<br>{<br>"couponName": "20% 할인 쿠폰",<br>"off": 20,<br>"status": "사용 가능",<br>"expDate": "2025-12-31T00:00:00"<br>}<br>```                       |
+| **자동완성**         | GET        | /search/suggestions?query=a        | 없음                                                                                                                                                        |
+| **인기 검색어 조회**  | GET        | /search/popular                    | 없음                                                                                                                                                        |
+| **인기 검색어 조회 - 맵 최적화** | GET        | /search/popular/optimized           | 없음                                                                                                                                                        |
+| **인기 검색어 조회 - 필터적용** | GET        | /search/popular/fastest             | 없음                                                                                                                                                        |
+| **데이터 추가**      | POST       | /search/insert/1000000              | ```json<br>{<br>"search_ic": "1",<br>"search_text": "소위키"<br>}<br>```                                                                                  |
+| **검색에 생성**      | POST       | /search                            | ```json<br>{<br>"search_ic": "1",<br>"search_text": "소위키"<br>}<br>```                                                                                  |
+
+
 
 ## 프로젝트 목표
 
