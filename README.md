@@ -70,7 +70,7 @@
 
 | **기능**           | **method** | **URL**                              | **body**                                                                                                                      |
 |------------------|------------|------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
-| **회원가입**        | POST       | /user/register                     | {<br/>"email": "email@example.com","password": "data"<br/>}                                                                   |
+| **회원가입**        | POST       | /user/register                     | {<br/>"email": "email@example.com",<br/>"password": "data"<br/>}                                                                   |
 | **로그인**          | POST       | /auth/login                        | {<br>"email": "email@example.com",<br>"password": "data"<br>}                                          |
 | **상품 목록 조회**   | GET        | /products/v2/list                  | 없음                                                                                                                            |
 | **쿠폰 조회**        | GET        | /coupons                            | 없음                                                                                                                            |
