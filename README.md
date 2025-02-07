@@ -9,7 +9,7 @@
 ![쿠팡 쿠폰 메인 이미지](https://github.com/llRosell/Coupang/blob/dev/%E1%84%8F%E1%85%AE%E1%84%91%E1%85%A1%E1%86%BC%20%E1%84%8F%E1%85%AE%E1%84%91%E1%85%A9%E1%86%AB%20%E1%84%86%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%AB.png?raw=true)
 
 ## 🏆 **Architecture** 
-![Image](https://github.com/user-attachments/assets/ceeff0f7-b53c-476d-973a-5ca42842cbc1)
+![image](https://github.com/user-attachments/assets/27a7d8be-d38d-4036-834b-57b93aa53c1b)
 
 ## 📚 **쿠빵 Team Notion 보러가기**
 [쿠빵 Team Notion](https://teamsparta.notion.site/8-5c74090342f94d1bae575d1f6888cdc1)
@@ -126,7 +126,7 @@
 
   <summary>📊[이경훈] [Elasticsearch 성능 비교 결과 (클릭해서 보기)</summary>
 
-![image](https://github.com/user-attachments/assets/bf1cdcfc-c0d1-45d2-998c-3dd57c08a4ea)
+![Elasticsearch 성능 비교](https://github.com/user-attachments/assets/0ee0141b-38c5-4f6b-84be-54a31de92d47)
 
 
 | **검색 방법**                  | **설명**                         | **실행 속도 (ms)** |
