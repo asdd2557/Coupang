@@ -70,17 +70,17 @@
 
 | **기능**           | **method** | **URL**                              | **body**                                                                                                                                                   |
 |------------------|------------|------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **회원가입**        | POST       | /user/register                     | ```{<br>"email": "email@example.com",<br>"password": "data"<br>}```                                                                            |
-| **로그인**          | POST       | /auth/login                        | ```{<br>"email": "email@example.com",<br>"password": "data"<br>}```                                                                            |
+| **회원가입**        | POST       | /user/register                     | ```json<br>{<br>"email": "email@example.com",<br>"password": "data"<br>}<br>```                                                                            |
+| **로그인**          | POST       | /auth/login                        | ```json<br>{<br>"email": "email@example.com",<br>"password": "data"<br>}<br>```                                                                            |
 | **상품 목록 조회**   | GET        | /products/v2/list                  | 없음                                                                                                                                                        |
 | **쿠폰 조회**        | GET        | /coupons                            | 없음                                                                                                                                                        |
-| **쿠폰 발급**        | POST       | /coupons/issue                      | ```{<br>"couponName": "20% 할인 쿠폰",<br>"off": 20,<br>"status": "사용 가능",<br>"expDate": "2025-12-31T00:00:00"<br>}```                       |
+| **쿠폰 발급**        | POST       | /coupons/issue                      | ```json<br>{<br>"couponName": "20% 할인 쿠폰",<br>"off": 20,<br>"status": "사용 가능",<br>"expDate": "2025-12-31T00:00:00"<br>}<br>```                       |
 | **자동완성**         | GET        | /search/suggestions?query=a        | 없음                                                                                                                                                        |
 | **인기 검색어 조회**  | GET        | /search/popular                    | 없음                                                                                                                                                        |
 | **인기 검색어 조회 - 맵 최적화** | GET        | /search/popular/optimized           | 없음                                                                                                                                                        |
 | **인기 검색어 조회 - 필터적용** | GET        | /search/popular/fastest             | 없음                                                                                                                                                        |
-| **데이터 추가**      | POST       | /search/insert/1000000              | ```{<br>"search_ic": "1",<br>"search_text": "소위키"<br>}```                                                                                  |
-| **검색에 생성**      | POST       | /search                            | ```{<br>"search_ic": "1",<br>"search_text": "소위키"<br>}```                                                                                  |
+| **데이터 추가**      | POST       | /search/insert/1000000              | ```json<br>{<br>"search_ic": "1",<br>"search_text": "소위키"<br>}<br>```                                                                                  |
+| **검색에 생성**      | POST       | /search                            | ```json<br>{<br>"search_ic": "1",<br>"search_text": "소위키"<br>}<br>```                                                                                  |
 
 ## 📽️ 프로젝트 목표
 
