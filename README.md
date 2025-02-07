@@ -8,9 +8,9 @@
 ## ⭐️ **스파르타 내일배움캠프 플러스 프로젝트** : 8조 ⭐️
 ![쿠팡 쿠폰 메인 이미지](https://github.com/llRosell/Coupang/blob/dev/%E1%84%8F%E1%85%AE%E1%84%91%E1%85%A1%E1%86%BC%20%E1%84%8F%E1%85%AE%E1%84%91%E1%85%A9%E1%86%AB%20%E1%84%86%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%AB.png?raw=true)
 
-## ⭐️ **스파르타 내일배움캠프 플러스 프로젝트** : 8조 ⭐️
-![쿠팡 쿠폰 메인 이미지]
-(https://github.com/user-attachments/assets/83c16661-774a-4599-b470-0c90dbd6c081)
+## 🏆 **Architecture** 
+![Elasticsearch 성능 비교](https://github.com/user-attachments/assets/83c16661-774a-4599-b470-0c90dbd6c081)
+
 ## 📚 **쿠빵 Team Notion 보러가기**
 [쿠빵 Team Notion](https://teamsparta.notion.site/8-5c74090342f94d1bae575d1f6888cdc1)
 
