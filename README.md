@@ -251,8 +251,47 @@
     - `requestCache(true)` 적용 후 **50% 추가 속도 개선**
     - 캐싱된 검색어 데이터를 활용하면 **0.1초 이내** 응답 가능
 
+## 🚀 **AWS Elastic Beanstalk 배포**
+### 🌍 **Route 53을 이용한 도메인 설정**
+- AWS Route 53을 활용하여 맞춤형 도메인을 설정하고, 사용자가 쉽고 빠르게 접근할 수 있도록 구성
 
+### 🔒 **로드밸런서(Load Balancer) + HTTPS 적용**
+- AWS 로드밸런서를 활용하여 트래픽을 분산시키고, HTTPS 인증서를 적용하여 보안 강화
+- Elastic Load Balancing(ELB)와 ACM(AWS Certificate Manager)을 활용한 SSL/TLS 암호화 적용
 
+### 🛠 **EC2 + RDS를 활용한 안정적인 데이터베이스 관리**
+- AWS RDS를 사용하여 MySQL을 구성하고, EC2와의 연동을 통해 관리형 데이터베이스 운영 실습
+- Multi-AZ 배포를 고려하여 가용성과 안정성을 높이는 방법 적용
+- 자동 백업 및 스냅샷 기능을 활용하여 데이터 보호
+
+---
+
+## 🔑 **Social Login OAuth2.0 (Google)**
+### 🔗 **Google OAuth 2.0을 활용한 로그인 기능 구현**
+- Google OAuth 2.0을 활용하여 사용자가 쉽게 로그인할 수 있도록 지원
+- 인증된 사용자 정보를 받아와 서버에서 관리
+
+### 🔐 **JWT 기반 인증 및 인가 시스템 구축**
+- OAuth2 Access Token 대신 서버에서 별도의 JWT를 발급하여 인증 및 인가 수행
+- JWT를 활용하여 보안성을 높이고, 인증 요청 시 서버 부하 감소
+
+### 📂 **MySQL(RDS) + Redis를 활용한 회원 관리 및 세션 유지**
+- 회원 정보를 MySQL(RDS)에 저장하여 관리
+- Refresh Token을 Redis에 저장하여 로그인 유지 및 재인증 처리 최적화
+- Redis를 활용한 세션 캐싱으로 빠른 인증 처리 가능
+
+### 📌 **아키텍처 개요**
+![AWS Elastic Beanstalk 및 OAuth2 소셜 로그인 아키텍처](https://github.com/user-attachments/assets/af478284-df00-47be-8442-51e33d3c2b09)
+
+위 사진 **AWS Elastic Beanstalk 기반의 배포 과정과 OAuth2 소셜 로그인 인증 흐름**을 나타냅니다.
+1. 사용자가 Google OAuth2.0을 이용하여 로그인 요청
+2. OAuth 인증 후, 서버에서 JWT를 발급하여 관리
+3. 사용자 정보는 MySQL(RDS)에 저장, Refresh Token은 Redis를 활용하여 빠르게 처리
+4. AWS Elastic Beanstalk을 이용한 서비스 배포 및 관리
+
+이러한 구조를 통해 **보안성과 확장성을 갖춘 웹 서비스**를 운영할 수 있습니다. 🚀
+
+---
 ## 🔒 **트러블슈팅**
 
 ### 1. **SQL 최적화**: 검색 시 사용자가 선택한 조건의 조합에 따른 쿼리 적용 방법 고민
