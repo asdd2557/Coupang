@@ -101,6 +101,9 @@
 3. 🛣️ **부하 분산**: AWS 로드밸런싱을 활용한 부하 분산
 4. 🔍 **Elasticsearch**: 엘라스틱 서치를 이용한 검색 속도 개선
 
+<tr>
+<tr>
+  
   <summary>📊 캐싱 적용 전 vs Redis Cache 적용 후 성능 비교 결과 (클릭해서 보기)</summary>
 
 **캐시 미적용**
@@ -119,7 +122,7 @@
   - Redis Cache 적용 후 **평균 응답 속도 3초 211ms 향상**
 
 <tr>
-
+<tr>
 
   <summary>📊 Elasticsearch 성능 비교 결과 (클릭해서 보기)</summary>
 
