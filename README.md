@@ -8,15 +8,16 @@
 ## ⭐️ **스파르타 내일배움캠프 플러스 프로젝트** : 8조 ⭐️
 ![쿠팡 쿠폰 메인 이미지](https://github.com/llRosell/Coupang/blob/dev/%E1%84%8F%E1%85%AE%E1%84%91%E1%85%A1%E1%86%BC%20%E1%84%8F%E1%85%AE%E1%84%91%E1%85%A9%E1%86%AB%20%E1%84%86%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%AB.png?raw=true)
 
-## 팀원 소개
+## :busts_in_silhouette: 팀원 소개
 
 - **김리은**: Redis 분산락, 비관적 락, 낙관적 락을 이용한 동시성 제어, README 작성, 발표
 - **최순우**: JWT와 Spring Security 인증/인가, Social Login, AWS 배포, 발표자료 준비
 - **이경훈**: ElasticSearch를 이용한 인기 검색어 조회 기능
 - **최대현**: 상품 목록 조회, Caching 성능 비교, 시연 영상 녹화
 
-## 프로젝트 소개
-## 프로젝트 목표
+## :rocket: 프로젝트 소개
+
+## :dart: 프로젝트 목표
 
 ### 1. JWT 및 스프링 시큐리티 / OAuth 2.0 소셜 로그인
 - JWT 및 Spring Security 설정을 통해 인증 및 인가 로직 구현
@@ -76,7 +77,6 @@
 | **인기 검색어 조회 - 필터적용** | GET        | /search/popular/fastest             | 없음                                                                                                                                                        |
 | **데이터 추가**      | POST       | /search/insert/1000000              | ```json<br>{<br>"search_ic": "1",<br>"search_text": "소위키"<br>}<br>```                                                                                  |
 | **검색에 생성**      | POST       | /search                            | ```json<br>{<br>"search_ic": "1",<br>"search_text": "소위키"<br>}<br>```                                                                                  |
-
 
 
 ## 프로젝트 목표
