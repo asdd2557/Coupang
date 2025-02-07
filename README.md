@@ -15,7 +15,7 @@
 [발표 보고서](https://www.canva.com/design/DAGaRbld9so/37ehM1xDZDsknpC-fXeebQ/edit?utm_content=DAGaRbld9so&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ## 🎬 **발표 영상 보러가기**
-[발표 영상](링크를_여기에_넣으세요)
+[발표 영상](https://www.youtube.com/watch?v=-8S3XLLW6jA)
 
 
 ## 💬 **ERD**
