@@ -126,7 +126,8 @@
 
   <summary>📊[이경훈] [Elasticsearch 성능 비교 결과 (클릭해서 보기)</summary>
 
-[![Elasticsearch 성능 비교](https://github.com/user-attachments/assets/0ee0141b-38c5-4f6b-84be-54a31de92d47)](https://private-user-images.githubusercontent.com/71320521/410730206-2f8f7f69-0b4f-42ab-b9ff-da282ea2f8e7.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mzg5MTU2ODYsIm5iZiI6MTczODkxNTM4NiwicGF0aCI6Ii83MTMyMDUyMS80MTA3MzAyMDYtMmY4ZjdmNjktMGI0Zi00MmFiLWI5ZmYtZGEyODJlYTJmOGU3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMDclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjA3VDA4MDMwNlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWFlODhhYWQzZDNhMGY0NDk5ZmNmOTk4NzM0MjViMWY0ZWU1YjVkOTVjNjZmMTI4NjllZWQ3NDBiNWFmY2ZhMDImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.LhFOSlgArnzdHMOOCT_Bx5PQbWvLorQp8O9YGRIkmU8)
+![image](https://github.com/user-attachments/assets/bf1cdcfc-c0d1-45d2-998c-3dd57c08a4ea)
+
 
 | **검색 방법**                  | **설명**                         | **실행 속도 (ms)** |
   |--------------------------------|--------------------------------|-------------------|
