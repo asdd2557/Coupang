@@ -96,15 +96,15 @@
 
 ## 🔧 **성능 개선**
 
-1. 💿 **DB 최적화**: 상품 데이터 조회 속도 개선
-2. 🚀 **레디스 캐싱**: 데이터 캐싱을 통한 빠른 응답 처리
-3. 🛣️ **부하 분산**: AWS 로드밸런싱을 활용한 부하 분산
-4. 🔍 **Elasticsearch**: 엘라스틱 서치를 이용한 검색 속도 개선
+1. 💿 [최순우] **DB 최적화**: 상품 데이터 조회 속도 개선
+2. 🚀 [최대현] **레디스 캐싱**: 데이터 캐싱을 통한 빠른 응답 처리
+3. 🛣️ [최순우] **부하 분산**: AWS 로드밸런싱을 활용한 부하 분산
+4. 🔍 [이경훈] **Elasticsearch**: 엘라스틱 서치를 이용한 검색 속도 개선
 
 <tr>
 <tr>
   
-  <summary>📊 캐싱 적용 전 vs Redis Cache 적용 후 성능 비교 결과 (클릭해서 보기)</summary>
+  <summary>📊 [최대현] 캐싱 적용 전 vs Redis Cache 적용 후 성능 비교 결과 (클릭해서 보기)</summary>
 
 **캐시 미적용**
 <img alt="스크린샷 2025-02-06 오후 5 07 38" src="https://github.com/user-attachments/assets/1869bf69-de9a-4c37-8ee8-62ef26ad23e7" />
@@ -124,7 +124,7 @@
 <tr>
 <tr>
 
-  <summary>📊 Elasticsearch 성능 비교 결과 (클릭해서 보기)</summary>
+  <summary>📊[이경훈] [Elasticsearch 성능 비교 결과 (클릭해서 보기)</summary>
 
 ![Elasticsearch 성능 비교](https://github.com/user-attachments/assets/0ee0141b-38c5-4f6b-84be-54a31de92d47)
 
