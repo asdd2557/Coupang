@@ -101,6 +101,11 @@
 <details>
   <summary>📊 캐싱 적용 전 vs Redis Cache 적용 후 성능 비교 결과 (클릭해서 보기)</summary>
 
+**캐시 미적용**
+<img width="508" alt="스크린샷 2025-02-06 오후 5 07 38" src="https://github.com/user-attachments/assets/1869bf69-de9a-4c37-8ee8-62ef26ad23e7" />
+**캐시 적용**
+<img width="504" alt="스크린샷 2025-02-06 오후 5 08 19" src="https://github.com/user-attachments/assets/0dd89485-0b61-4f28-b61f-48ec41655c52" />
+
 
 |        | **평균 응답속도** |
   |--------|-------------|
