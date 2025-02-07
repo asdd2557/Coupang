@@ -144,10 +144,10 @@
 - **비관적 락**: 3초 802ms
 
 **분산 락 적용**
-<img alt="스크린샷 2025-02-06 오후 5 07 38" src="https://github.com/user-attachments/assets/1869bf69-de9a-4c37-8ee8-62ef26ad23e7" />
+![image](https://github.com/llRosell/Coupang/blob/dev/%E1%84%87%E1%85%AE%E1%86%AB%E1%84%89%E1%85%A1%E1%86%AB%E1%84%85%E1%85%A1%E1%86%A8%201000%E1%84%80%E1%85%A2%202%E1%84%8E%E1%85%A9%20722ms.png?raw=true)
 
 **비관적 락 적용**
-<img alt="스크린샷 2025-02-06 오후 5 08 19" src="https://github.com/user-attachments/assets/0dd89485-0b61-4f28-b61f-48ec41655c52" />
+![image](https://github.com/llRosell/Coupang/blob/dev/%E1%84%87%E1%85%B5%E1%84%80%E1%85%AA%E1%86%AB%E1%84%8C%E1%85%A5%E1%86%A8%E1%84%85%E1%85%A1%E1%86%A8%201000%E1%84%80%E1%85%A2%203%E1%84%8E%E1%85%A9%20802ms.png?raw=true)
 
 분산 락이 가장 빠르며, 비관적 락은 상대적으로 느리다는 결과가 나왔습니다. 
 동시성 제어를 테스트하기 위해 1000개의 스레드가 동시에 100개의 쿠폰을 발급받는 상황을 시뮬레이션하였고, 그 결과:
