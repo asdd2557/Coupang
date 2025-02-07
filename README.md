@@ -159,6 +159,7 @@
    -  최종적으로 엘라스틱 서치를 적용하여 검색 속도를 향상
    -  [예시]
      <tr>
+     <tr>
  ![image](https://github.com/user-attachments/assets/3b93d3f6-675f-492a-ba3c-88381c7cbb84)
  ![image](https://github.com/user-attachments/assets/9ec327a9-e366-4f5d-8c62-cd49329768b9)
 
