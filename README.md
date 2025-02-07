@@ -102,7 +102,7 @@
 <tr>
 <tr>
 
- <summary>📊 [최대현] 캐싱 적용 전 vs Redis Cache 적용 후 성능 비교 결과 (클릭해서 보기)</summary>
+ <summary>📊 [최대현] 캐싱 적용 전 vs Redis Cache 적용 후 성능 비교 결과 </summary>
 
 **캐시 미적용**
 <img alt="스크린샷 2025-02-06 오후 5 07 38" src="https://github.com/user-attachments/assets/1869bf69-de9a-4c37-8ee8-62ef26ad23e7" />
@@ -126,7 +126,7 @@
 <tr>
 <tr>
 
-  <summary>📊[이경훈] [Elasticsearch 성능 비교 결과 (클릭해서 보기)</summary>
+  <summary>📊[이경훈] [Elasticsearch 성능 비교 결과 </summary>
 
 ![Elasticsearch 성능 비교](https://github.com/user-attachments/assets/0ee0141b-38c5-4f6b-84be-54a31de92d47)
 
