@@ -56,8 +56,6 @@
 
 ## 🎬 **발표 영상 보러가기**
 [발표 영상](https://www.youtube.com/watch?v=-8S3XLLW6jA)
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=-8S3XLLW6jA
-" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## 📝 **와이어프레임**
 ![와이어프레임 이미지](https://github.com/llRosell/Coupang/blob/dev/%E1%84%8F%E1%85%AE%E1%84%88%E1%85%A1%E1%86%BC%20%E1%84%8B%E1%85%AA%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%A5%E1%84%91%E1%85%B3%E1%84%85%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%B7.png?raw=true)
