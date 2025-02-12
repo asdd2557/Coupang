@@ -78,8 +78,6 @@ public class OAuth2SuccessHandler extends SimpleUrlAuthenticationSuccessHandler 
           RefreshTokenRepository.save(refreshToken);
         }else{
            refreshToken = new RefreshToken(userId, newRefreshToken);
-          System.out.println("onAuthenticationSuccess User: " + userId);
-          System.out.println("onAuthenticationSuccess refreshToken: " + refreshToken.getRefreshToken());
           RefreshTokenRepository.save(refreshToken);
         }
   }
